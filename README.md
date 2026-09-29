@@ -1,81 +1,27 @@
-# ThemeStore
+# themestore
 
-**ThemeStore** 是一款专为小米设备打造的主题安装软件，致力于简化主题的下载与安装流程。项目采用 **Kotlin 100%** 编写，构建工具为 **Gradle 8.13**。
+本仓库是「themestore」的安卓版本获取入口，附使用资料索引。
 
----
+## 安装文件资源（夸克网盘）
 
-## 项目简介
+> **themestore 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/bc49d5af0d6a](https://pan.quark.cn/s/bc49d5af0d6a)
 
-ThemeStore 主要面向 Android 11-15（a16 目前未兼容），为小米设备用户提供便捷的主题安装体验。特色功能还包括网络主题安装、日志统计和广播拦截，致力于打造高效、易用、安全的主题管理工具。
+## 官方项目
 
----
+- 上游项目：[YuHong1593/ThemeStore](https://github.com/YuHong1593/ThemeStore)
 
-## 主要功能清单
+## 更多资料
 
-- [x] 安装主题  
-- [x] 网络安装主题  
-- [x] 日志统计  
-- [x] 拦截广播  
-- [x] 常驻通知栏保护（已完成未测试）
-- [x] 优化模式（较为极端，不建议使用）
-- [ ] 多主题配置管理（暂未支持）  
-- [ ] 支持 Shizuku（暂未支持）  
-- [ ] Native Development Kit 定期保活（暂未支持）  
-- [ ] 广播剩余时间计算（暂未支持）  
-- [ ] 官方主题解析（暂未支持）  
-- [ ] 三方主题商店（暂未支持）  
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ThemeStore%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [Shizuku免root授权怎么设置](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ThemeStore%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/Shizuku%E5%85%8Droot%E6%8E%88%E6%9D%83%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE.md)
+- [主题模块怎么单独混搭](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ThemeStore%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E4%B8%BB%E9%A2%98%E6%A8%A1%E5%9D%97%E6%80%8E%E4%B9%88%E5%8D%95%E7%8B%AC%E6%B7%B7%E6%90%AD.md)
+- [主题自动变回默认怎么办](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ThemeStore%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E4%B8%BB%E9%A2%98%E8%87%AA%E5%8A%A8%E5%8F%98%E5%9B%9E%E9%BB%98%E8%AE%A4%E6%80%8E%E4%B9%88%E5%8A%9E.md)
+- [同名应用与官方渠道怎么认](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ThemeStore%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E5%90%8C%E5%90%8D%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%98%E6%96%B9%E6%B8%A0%E9%81%93%E6%80%8E%E4%B9%88%E8%AE%A4.md)
+- [常见问题与排查](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ThemeStore%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E6%8E%92%E6%9F%A5.md)
+- [本地主题包怎么导入安装](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ThemeStore%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E6%9C%AC%E5%9C%B0%E4%B8%BB%E9%A2%98%E5%8C%85%E6%80%8E%E4%B9%88%E5%AF%BC%E5%85%A5%E5%AE%89%E8%A3%85.md)
+- [粘贴主题链接下载并应用](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ThemeStore%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E7%B2%98%E8%B4%B4%E4%B8%BB%E9%A2%98%E9%93%BE%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%BA%94%E7%94%A8.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
 ---
 
-## 文件复制方法
-
-ThemeStore 利用 `\u200b`（零宽空格 Unicode 字符）构造文件别名，从而实现无需 Shell 权限即可访问 `Android/data` 目录。这一方法有效绕过了 Android 对相关目录的访问限制，使主题文件的复制与管理更加便捷。
-
----
-
-## 适用安卓版本
-
-- 支持：Android 11 - Android 15
-- 不支持：Android 16 及以上（大概率无法使用安装）
-
----
-
-## 所需权限说明
-
-为保证功能完整性及流畅体验，ThemeStore 需申请以下系统权限：
-
-- **所有文件管理权限**（管理存储）  
-  用于访问和操作本地存储中的主题文件
-- **无障碍服务权限**  
-  用于拦截部分广播
-- **自启动权限**  
-  保障软件在系统启动后能够正常工作
-- **后台运行权限**  
-  确保程序关键服务在后台持续运行
-- **通知权限**  
-  用于常驻通知栏提示及相关交互
-- **网络权限**  
-  用于下载主题文件及作者头像图片
-
----
-
-## 特别说明
-
-本项目仅供学习与技术交流，请勿用于商业用途。部分功能受系统限制，在不同设备和系统版本下表现可能有所差异，敬请谅解。
-
----
-
-## 开源协议
-
-本项目采用 [GNU Affero General Public License v3.0](LICENSE)（GNU AGPL v3）开源发布。  
-您可以自由地使用、修改和分发本项目，但请遵守 AGPL v3 协议条款并保留原作者信息和许可证说明。
-
----
-
-## 作者
-
-[bilibili - MerakXingChen](https://space.bilibili.com/1064893426)
-
-## 项目主页
-
-[GitHub - MerakXingChen/ThemeStore](https://github.com/MerakXingChen/ThemeStore)
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/YuHong1593/ThemeStore)。
